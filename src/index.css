@@ -252,10 +252,24 @@ footer {
   padding-top: 0;
 }
 
+.signup-button{
+  height: 80px;
+}
+
 .register-container {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;  /* center footer content */
+  align-items: center;
+  padding: var(--space-lg) 0;
+  font-size: 0.875rem;
+  color: var(--color-muted);
 }
 
 
