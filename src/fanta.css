@@ -179,6 +179,4 @@ input, select {
 }
 .text-gradient {
     background: linear-gradient(135deg, purple, brow);
-    -webkit-background-clip: text;
-    color: transparent;
 }

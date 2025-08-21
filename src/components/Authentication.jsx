@@ -3,8 +3,8 @@ import { useAuth } from '../context/AuthContext'
 export default function Authentication(props) {
     const { handleCloseModal } = props
     const [isRegistration, setIsRegistration] = useState(false)
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
+    const [email, setEmail] = useState('test@gmail.com')
+    const [password, setPassword] = useState('12345678')
     const [isAuthenticating, setIsAuthenticating] = useState(false)
     const [error, setError] = useState(null)
 
